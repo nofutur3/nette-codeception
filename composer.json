@@ -16,7 +16,6 @@
         "nette/nette": "^2.2.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "^4.6.6",
         "codeception/codeception": "^2.2"
     },
     "autoload": {
