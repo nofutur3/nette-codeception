@@ -1,0 +1,27 @@
+{
+    "name": "nofutur3/nette-codeception",
+    "type": "library",
+    "description": "Nette module for Codeception (https://codeception.com/)",
+    "keywords": ["testing", "codeception", "nette", "module", "unit", "functional", "acceptance"],
+    "homepage": "https://vyvazil.cz",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jakub Vyvazil",
+            "email": "jakub@vyvazil.cz"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "nette/nette": "^2.2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.6.6",
+        "codeception/codeception": "^2.2"
+    },
+    "autoload": {
+        "psr-0" : {
+            "Codeception\\": "src/"
+        }
+    }
+}
